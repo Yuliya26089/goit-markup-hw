@@ -400,12 +400,9 @@ h2 {
 
 .sectionport {
     color: #E5E5E5;
-}
-
-.page-header-portf {
     padding-top: 94px;
-
 }
+
 
 .port-button {
     list-style: none;
@@ -413,8 +410,19 @@ h2 {
     margin-bottom: 50px;
     gap: 8px;
     justify-content: center;
+    padding-left: 0;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0);
+}
 
 .main-btn {
     font-family: var(--primary-fond);
