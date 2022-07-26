@@ -107,6 +107,10 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .contact:hover,
@@ -134,6 +138,7 @@ body {
     display: flex;
     align-items: center;
     margin-left: auto;
+    text-decoration: none;
 }
 
 .logo {
@@ -152,11 +157,31 @@ body {
     padding-bottom: 25px;
 }
 
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+
+}
+
+.contact-icon {
+    fill: currentColor;
+    padding: 0;
+    border: 0;
+}
+
+.contact-item:hover .contact-icon,
+.contact-item:focus .contact-icon {
+    fill: currentColor;
+
+}
 
 
+/* __________Секция герой______________ */
 
 .hero-section {
-    background-color: #2F303A;
+    background-color: #C4C4C4 ;
     padding-top: 200px;
     padding-bottom: 200px;
     max-width: 1600px;
@@ -164,6 +189,14 @@ body {
     margin-right: auto;
     text-align: center;
     text-transform: uppercase;
+
+}
+
+.hero-item {
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4) , rgba(47, 48, 58, 0.4)) ,
+    url(../images/hero/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -216,8 +249,18 @@ body {
     gap: 30px;
 }
 
+.subject-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #F5F4FA;
+}
+
 .subject-desc {
-    flex-basis: calc((100%-90px)/4);
+    width: 270px;
 }
 
 .subtitle {
@@ -307,6 +350,9 @@ body {
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .work {
@@ -314,6 +360,77 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.19;
+    margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.social-list-link:hover,
+.social-list-link:focus {
+    background-color: #2196F3;
+}
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+    fill: #FFFFFF;
+}
+
+
+
+.social-list-icon {
+    fill: #AFB1B8;
+}
+
+/* ______________Постоянные клинные ________ */
+
+.section-clients {
+    padding-top: 94px;
+    padding-bottom: 88px;
+}
+
+.icon-clients {
+    fill: #AFB1B8;
+    width: 106px;
+    height: 60px;
+}
+
+.icon-clients-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.icon-clients-link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
+
+.icon-clients-link .icon-clients:hover ,
+.icon-clients-link .icon-clients:focus {
+    fill: var(--accent-color);
+}
+
+.icon-clients-text .icon-clients-link:hover ,
+.icon-clients-text .icon-clients-link:focus {
+    border-color: var(--accent-color);
 }
 
 
@@ -328,6 +445,7 @@ footer {
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    display: flex;
 }
 
 .logo-dark {
@@ -350,6 +468,16 @@ footer {
     color: var(--accent-color);
 }
 
+.address-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer-block-address {
+    display: flex;
+    align-items: baseline;
+    gap: 70px;
+}
 
 .contact-footer {
     font-family: var(--primary-fond);
@@ -358,6 +486,7 @@ footer {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    text-decoration: none;
     color: var(--footer-color);
 }
 
@@ -379,6 +508,43 @@ footer {
 
 .footer-adress:not(:last-child) {
     margin-bottom: 9px;
+}
+
+.messenger-block {
+    width: 206px;
+    height: 80px;
+}
+
+.title-messenger-footer {
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+
+.icon-messenger-footer {
+    fill: #FFFFFF;
+}
+
+.list-messenger {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.icon-messenger-link-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icon-messenger-link-footer:hover,
+.icon-messenger-link-footer:focus {
+    background-color: var(--accent-color);
 }
 
 
@@ -410,7 +576,8 @@ h2 {
     margin-bottom: 50px;
     gap: 8px;
     justify-content: center;
-    padding-left: 0;
+    padding: 0 0;
+    
 }
 
 .visually-hidden {
@@ -443,6 +610,7 @@ h2 {
 .main-btn:focus {
     color: #FFFFFF;
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12)
     
 }
 
@@ -484,6 +652,15 @@ h2 {
     padding-bottom: 20px;
 }
 
+
+.portfolio .project:hover ,
+.portfolio .project:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    cursor: pointer;
+}
+
 .project-link {
     text-decoration: none;
 }
+
+
