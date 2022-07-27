@@ -110,7 +110,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
 .contact:hover,
@@ -423,8 +423,8 @@ body {
     border-radius: 4px;
 }
 
-.icon-clients-link .icon-clients:hover ,
-.icon-clients-link .icon-clients:focus {
+.icon-clients-link:hover .icon-clients,
+.icon-clients-link:focus .icon-clients {
     fill: var(--accent-color);
 }
 
@@ -516,6 +516,9 @@ footer {
 }
 
 .title-messenger-footer {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
     text-transform: uppercase;
     color: #FFFFFF
 }
