@@ -23,7 +23,7 @@
                 <a class="logo link" href="" lang="en"><span class="logo-accent">Web</span>Studio</a>
                 <ul class="menu list">
                     <li class="menu-item">
-                        <a class="menu-link link" href="./index.html">Студия</a>
+                        <a class="menu-link link current current-page" href="./index.html">Студия</a>
                     </li>
                     <li class="menu-item">
                         <a class="menu-link link" href="./portfolio.html">Портфолио</a>
@@ -58,7 +58,7 @@
         <section>
             <div class="hero-item hero-section">
                 <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса </br> </h1>
-                <button class="modal-btn" type="button">Заказать услугу</button>
+                <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
 
             </div>
             
@@ -112,9 +112,36 @@
             <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="title-desc list">
-                    <li> <img src="./images/about/occupation1.jpg" alt="разработка сайта" width="370" height="294"></li>
-                    <li> <img src="./images/about/occupation2.jpg" alt="оформление сайта" width="370" height="294"></li>
-                    <li> <img src="./images/about/occupation3.jpg" alt="дизайн сайта" width="370" height="294"></li>
+                    <li> 
+                        <div class="product-work">
+                            <img src="./images/about/occupation1.jpg" alt="разработка сайта" width="370" height="294">
+                            <div class="titel-product">
+                                <p class="titel-product-work">Десктопные приложения</p>
+                            </div>
+                            
+
+                        </div>
+                    </li>
+                    <li> 
+                        <div class="product-work">
+                            <img src="./images/about/occupation2.jpg" alt="оформление сайта" width="370" height="294">
+                            <div class="titel-product">
+                                <p class="titel-product-work">Мобильные приложения</p>
+                            </div>
+
+                        </div>
+                        
+                    </li>
+                    <li> 
+                        <div class="product-work">
+                            <img src="./images/about/occupation3.jpg" alt="дизайн сайта" width="370" height="294">
+                            <div class="titel-product">
+                                <p class="titel-product-work">Дизайнерские решения</p>
+                            </div>
+
+                        </div>
+                        
+                    </li>
                 </ul>
 
             </div>
@@ -402,10 +429,25 @@
                 </ul>
             
             </div>
-
-     
-        
+        </div>
 
     </footer>
+    
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="modal-close" data-modal-close>
+                <svg class="modal-close-icon" width="18" height="18" >
+                    <use href="./images/sprite.svg#icon-close-modal"></use>
+                </svg>
+
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="./js/modal.js"></script>
+
+    
 </body>
 </html>
