@@ -914,6 +914,13 @@ footer {
     color: var(--accent-color);
 }
 
+.policy-modal {
+    display: flex;
+    align-self: center;
+}
+
+
+
 
 /* _______КНОПКА__в модальном________ */
 
