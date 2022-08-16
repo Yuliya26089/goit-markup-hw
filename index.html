@@ -14,36 +14,38 @@
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
 
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    
+    
 </head>
 <body>
     <header class="page-header">
         <div class="container page-header-container">
             <nav class="page-nav">
-                <a class="logo link" href="" lang="en"><span class="logo-accent">Web</span>Studio</a>
+                <a class="logo link" href="" lang="en"><span class="logo__accent">Web</span>Studio</a>
                 <ul class="menu list">
-                    <li class="menu-item">
-                        <a class="menu-link link current current-page" href="./index.html">Студия</a>
+                    <li class="menu__item">
+                        <a class="menu__link link current current-page" href="./index.html">Студия</a>
                     </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+                    <li class="menu__item">
+                        <a class="menu__link link" href="./portfolio.html">Портфолио</a>
                     </li>
-                    <li class="menu-item">
-                        <a class="menu-link link" href="#contacts">Контакты</a>
+                    <li class="menu__item">
+                        <a class="menu__link link" href="#contacts">Контакты</a>
                     </li>
                 </ul>
             
             </nav>
             <ul class="menu-contact list">
-                <li class="page-menu-contact">
-                    <a class="contact link" href="mailto:info@devstudio.com">
+                <li class="menu-contact__page">
+                    <a class="menu-contact__info link" href="mailto:info@devstudio.com">
                         <svg class="contact-item" width="16" height="12">
                             <use class="contact-icon" href="./images/sprite.svg#icon-envelope"></use>
                         </svg>
                         info@devstudio.com</a>
                 </li>
-                <li class="page-menu-contact">
-                    <a class="contact link" href="tel:+380961111111">
+                <li class="menu-contact__page">
+                    <a class="menu-contact__info link" href="tel:+380961111111">
                         <svg class="contact-item" width="10" height="16">
                             <use class="contact-icon" href="./images/sprite.svg#icon-smartphone"></use>
                         </svg>
@@ -375,19 +377,19 @@
     <footer class="footer-all">
         <div class="footer-block-address container">
             <div class="footer-block">
-                <a class="logo-dark link" href="" lang="en"><span class="logo-accent">Web</span>Studio</a>
+                <a class="logo__dark link" href="" lang="en"><span class="logo__accent">Web</span>Studio</a>
                 <address class="address-footer">
             
                     <ul class="footer list">
-                        <li class="footer-adress">
-                            <a class="contact-info link" href="https://goo.gl/maps/SM9BGo1ogj7aucDh7" target="_blank"
+                        <li class="footer__adress">
+                            <a class="footer__info link" href="https://goo.gl/maps/SM9BGo1ogj7aucDh7" target="_blank"
                                 rel="noopener noreferrer">г. Киев, пр-т Леси Украинки, 26</a>
                         </li>
-                        <li class="footer-adress">
-                            <a class="contact-footer link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <li class="footer__adress">
+                            <a class="footer__info link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>
-                        <li class="footer-adress">
-                            <a class="contact-footer link" href="tel:+380961111111">+38 096 111 11 11</a>
+                        <li class="footer__adress">
+                            <a class="footer__info link" href="tel:+380961111111">+38 096 111 11 11</a>
                         </li>
                     </ul>
             
@@ -396,32 +398,32 @@
             </div>
             
             <div class="messenger-block">
-                <h3 class="title-messenger-footer">присоединяйтесь</h3>
+                <h3 class="messenger-block__title-messenger-footer">присоединяйтесь</h3>
                 <ul class="list-messenger list">
                     <li>
-                        <a href="" class="icon-messenger-link-footer">
-                            <svg class="icon-messenger-footer" width="20" height="20">
+                        <a href="" class="list-messenger__icon-messenger-link-footer">
+                            <svg class="list-messenger__icon-messenger-footer" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-instagram"></use>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="" class="icon-messenger-link-footer">
-                            <svg class="icon-messenger-footer" width="20" height="20">
+                        <a href="" class="list-messenger__icon-messenger-link-footer">
+                            <svg class="list-messenger__icon-messenger-footer" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-twitter"></use>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="" class="icon-messenger-link-footer">
-                            <svg class="icon-messenger-footer" width="20" height="20">
+                        <a href="" class="list-messenger__icon-messenger-link-footer">
+                            <svg class="list-messenger__icon-messenger-footer" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-facebook"></use>
                             </svg>
                         </a>
                     </li>
                     <li>
-                        <a href="" class="icon-messenger-link-footer">
-                            <svg class="icon-messenger-footer" width="20" height="20">
+                        <a href="" class="list-messenger__icon-messenger-link-footer">
+                            <svg class="list-messenger__icon-messenger-footer" width="20" height="20">
                                 <use href="./images/sprite.svg#icon-linkedin"></use>
                             </svg>
                         </a>
@@ -430,15 +432,15 @@
             
             </div>
             <div class="form-block-footer">
-                <p class="form-titel-footer">Подпишитесь на рассылку</p>
-                <form class="form-footer">
+                <p class="form-block-footer__form-titel-footer">Подпишитесь на рассылку</p>
+                <form class="form-block-footer__form-footer">
                     <input type="email" 
                         name="user_email"
-                        class="footer-form-input"
+                        class="form-block-footer__footer-form-input"
                         required 
                         placeholder="E-mail">
-                    <button type="submit" class="form-btn-footer">Подписаться
-                        <svg class="footer-icon-send" width="24" height="24">
+                    <button type="submit" class="form-block-footer__form-btn-footer">Подписаться
+                        <svg class="form-block-footer__footer-icon-send" width="24" height="24">
                             <use href="./images/sprite.svg#icon-icon-send"></use>
                         </svg>
                     </button>
@@ -518,7 +520,7 @@
                 </label>
                 <span class="policy-modal">
                     <input id="user-policy" type="checkbox" name="user_policy" class="modal-form-check visually-hidden">
-                    <label for="user-policy" class="policy modal-form-check-desc">Соглашаюсь с рассылкой и принимаю &nbsp; <a href=""  class="form-link">Условия договора</a></label>
+                    <label for="user-policy" class="modal-form-check-desc">Соглашаюсь с рассылкой и принимаю &nbsp; <a href=""  class="form-link">Условия договора</a></label>
 
                 </span>
                 

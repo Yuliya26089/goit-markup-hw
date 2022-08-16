@@ -1,0 +1,88 @@
+.name-team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    margin-bottom: 14px;
+}
+
+.jobtitle-section {
+    background-color: #F5F4FA;
+
+}
+
+.jobtitle {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+.jobtitle-team {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+
+.jobtitle-card-team {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+        0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.work {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.19;
+    margin-bottom: 16px;
+}
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover .social-list-icon,
+    &:focus .social-list-icon {
+            fill: #FFFFFF;
+        }
+
+
+
+    &:hover,
+    &:focus {
+            background-color: #2196F3;
+        }
+
+}
+
+.social-list-icon {
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+
+
+.social-list-icon {
+    fill: #AFB1B8;
+}
