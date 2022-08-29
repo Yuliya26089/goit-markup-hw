@@ -7,3 +7,19 @@
     letter-spacing: 0.03em;
     color: var(--title-text-color);
 }
+
+@media screen and (min-width:280px) {
+    .section-titel {
+        font-size: 28px;
+        line-height: 1.10;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .section-titel {
+        font-size: 36px;
+        line-height: 1.16;
+        margin-bottom: 50px;
+    }
+}

@@ -1,39 +1,87 @@
-.section-work {
-    padding-bottom: 94px;
+@media screen and (max-width:1199px) {
+    .section-work {
+        display: none;
+    }
 }
 
-.title-desc {
-    display: flex;
-    list-style: none;
-    gap: 30px;
+@media screen and (min-width:1200px) {
+    .section-work {
+        padding-bottom: 94px;
+    }
+    
+    .title-desc {
+        display: flex;
+        list-style: none;
+        gap: 30px;
+    }
+    
+    .product-work {
+        position: relative;
+    
+    }
+    
+    .titel-product {
+        display: inline-block;
+        position: absolute;
+        background: rgba(47, 48, 58, 0.8);
+        width: 370px;
+        height: 70px;
+        bottom: 0;
+    }
+    
+    .titel-product-work {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-top: 27px;
+        padding-bottom: 27px;
+    
+    }
+    
 }
 
-.product-work {
-    position: relative;
-
-}
-
-.titel-product {
-    display: inline-block;
-    position: absolute;
-    background: rgba(47, 48, 58, 0.8);
-    width: 370px;
-    height: 70px;
-    bottom: 0;
 
 
-}
+// .section-work {
+//     padding-bottom: 94px;
+// }
 
-.titel-product-work {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    padding-top: 27px;
-    padding-bottom: 27px;
+// .title-desc {
+//     display: flex;
+//     list-style: none;
+//     gap: 30px;
+// }
+
+// .product-work {
+//     position: relative;
+
+// }
+
+// .titel-product {
+//     display: inline-block;
+//     position: absolute;
+//     background: rgba(47, 48, 58, 0.8);
+//     width: 370px;
+//     height: 70px;
+//     bottom: 0;
 
 
-}
+// }
+
+// .titel-product-work {
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 16px;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     color: #FFFFFF;
+//     padding-top: 27px;
+//     padding-bottom: 27px;
+
+
+// }

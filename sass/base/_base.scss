@@ -13,6 +13,13 @@ p {
     margin-bottom: 0;
 }
 
+@media screen and (min-width:768px) and (max-width:1199px) {
+    h3 {
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
 ul,
 ol {
     margin-top: 0;

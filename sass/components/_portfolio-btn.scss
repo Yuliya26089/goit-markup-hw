@@ -26,3 +26,18 @@
 
 }
 
+.main-btn {
+    list-style: none;
+    display: flex;
+    margin-bottom: 40px;
+    gap: 8px;
+
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width:768px) {
+    .main-btn {
+        justify-content: center;
+    }
+}

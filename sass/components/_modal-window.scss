@@ -13,6 +13,22 @@
     border-radius: 4px;
 }
 
+@media screen and (max-width:1199px) {
+    .modal {
+        max-width: 450px;
+
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width:1200px) {
+    .modal {
+        max-width: 528px;
+        max-height: 581px;
+    }
+}
+
 
 
 .modal-close {
