@@ -106,6 +106,7 @@ body {
     top: 0;
     left: 0;
     background-color: #FFFFFF;
+    box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
@@ -231,17 +232,17 @@ body {
 }
 
 @media screen and (min-width: 280px) {
-  .section-titel {
+  .section-title {
     font-size: 28px;
     line-height: 1.1;
     margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .section-titel {
+  .section-title {
     font-size: 36px;
     line-height: 1.16;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 .backdrop {
