@@ -94,6 +94,11 @@
 }
 
 @media screen and (min-width:1200px) {
+    .section {
+            padding-top: 94px;
+            
+    }
+
     .subject {
         color: var(--title-text-color);
         list-style: none;
