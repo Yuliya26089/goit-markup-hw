@@ -1394,7 +1394,6 @@ footer {
 }
 
 .footer-block {
-  display: flex;
   align-items: baseline;
 }
 
@@ -1607,6 +1606,7 @@ h2 {
   gap: 8px;
   flex-wrap: wrap;
   justify-content: flex-start;
+  padding-left: 0;
 }
 
 @media screen and (min-width: 768px) {
