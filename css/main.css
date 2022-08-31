@@ -166,8 +166,7 @@ body {
   .mobile-menu__messeg {
     display: flex;
     gap: 10px;
-    text-align: center;
-    justify-content: center;
+    flex-wrap: wrap;
   }
   .mobile-menu__messeg-link {
     text-align: center;
