@@ -26,7 +26,7 @@
 
 }
 
-.main-btn {
+.port-button {
     list-style: none;
     display: flex;
     margin-bottom: 40px;
@@ -37,7 +37,7 @@
 }
 
 @media screen and (min-width:768px) {
-    .main-btn {
+    .port-button {
         justify-content: center;
     }
 }

@@ -1,10 +1,10 @@
-.footer-block-address__link-adress {
+.footer-block__link-adress {
     display: block;
     text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-    .footer-block-address__link-adress {
+    .footer-block__link-adress {
         display: flex;
         justify-content: space-around;
         align-items: baseline;
@@ -13,7 +13,7 @@
 }
 
 @media screen and (min-width: 1200px) {
-    .footer-block-address__link-adress {
+    .footer-block__link-adress {
         text-align: left;
     }
 
@@ -35,14 +35,14 @@ footer {
     display: block;
 }
 
-.footer-block {
+.footer-addres-block {
     display: inline-block;
     max-width: 232px;
     margin-bottom: 60px;
 }
 
 @media screen and (min-width: 1200px) {
-    .footer-block {
+    .footer-addres-block {
         margin-bottom: 0;
     }
 
@@ -68,7 +68,7 @@ footer {
     color: #2196F3;
 }
 
-.footer__info {
+.footer__adress {
     font-family: var(--primary-fond);
     font-style: normal;
     font-weight: 400;
@@ -85,6 +85,23 @@ footer {
     }
 }
 
+.footer__contacts {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    .footer &:hover,
+    .footer &:focus {
+        color: #2196F3;
+    }
+
+}
+
 
 .footer__adress:not(:last-child) {
     margin-bottom: 9px;
@@ -98,14 +115,14 @@ footer {
 
 
 
-.footer-block-address {
+.footer-block {
     display: flex;
     align-items: baseline;
     // gap: 70px;
 }
 
 @media screen and (min-width: 1200px) {
-    .footer-block-address {
+    .footer-block {
         display: flex;
         align-items: baseline;
         justify-content: center;
@@ -133,7 +150,6 @@ footer {
 
 
 .messenger-block__title-messenger-footer {
-    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
@@ -175,7 +191,7 @@ footer {
 
 .form-block-footer {
     text-align: center;
-    text-decoration: none;
+    
 }
 
 // .form-block-footer {

@@ -62,7 +62,7 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
     padding-top: 118px;
     padding-bottom: 118px;
     width: 100%;
-
+    
     background-color: #C4C4C4;
     margin-left: auto;
     margin-right: auto;
@@ -85,53 +85,17 @@ screen and (min-resolution: 2dppx) and (min-width:1200px) {
     font-weight: 900;
     font-size: 26px;
     line-height: 42px;
-    text-transform: uppercase;
-    max-width: 1600px;
+
+
 }
+
 
 
 @media screen and (min-width:1200px) {
     .hero-title {
         font-size: 44px;
-        line-height: 1.36;
+        line-height: 60px;
 
     }
 }
-
-
-
-
-
-
-
-// .hero-section {
-//     background-color: #C4C4C4;
-//     padding-top: 200px;
-//     padding-bottom: 200px;
-//     max-width: 1600px;
-//     margin-left: auto;
-//     margin-right: auto;
-//     text-align: center;
-//     text-transform: uppercase;
-
-// }
-
-// .hero-item {
-//     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-//         url(../images/hero/bg.jpg);
-//     background-size: cover;
-//     background-repeat: no-repeat;
-
-// }
-
-// .hero-title {
-//     font-weight: 900;
-//     font-size: 44px;
-//     line-height: 1.36;
-//     text-align: center;
-//     letter-spacing: 0.06em;
-//     text-transform: uppercase;
-//     color: #FFFFFF;
-//     margin-bottom: 30px;
-// }
 
