@@ -116,9 +116,9 @@ footer {
 
 
 .footer-block {
-    
+    display: block;
     align-items: baseline;
-    // gap: 70px;
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -253,18 +253,20 @@ footer {
 
     margin-bottom: 20px;
 
+    @media screen and (min-width: 768px) {
+            width: 450px;
+    }
+    
+        @media screen and (min-width: 1200px) {
+            width: 358px;
+    }
+
     &:focus {
             outline: none;
             border-color: var(--accent-color);
     }
 
-    @media screen and (min-width: 768px) {
-        width: 450px;
-    }
-
-    @media screen and (min-width: 1200px) {
-            width: 358px;
-        }
+    
 
 
 

@@ -1,9 +1,13 @@
 @media screen and (max-width:767px) {
+    .section-m {
+        padding-top: 16px ;
+        padding-bottom: 16px ;
+    }
 
     .mobile-menu {
         position: fixed;
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         max-height: 796px;
         z-index: 999;
         top: 0;
