@@ -458,8 +458,11 @@ body {
   color: #FFFFFF;
 }
 
-@media screen and (min-width: 288px) and (max-width: 288px) {
+@media screen and (min-width: 288px) and (max-width: 1200px) {
   .form-link {
+    font-size: 11px;
+  }
+  .modal-form-check-desc {
     font-size: 11px;
   }
 }
